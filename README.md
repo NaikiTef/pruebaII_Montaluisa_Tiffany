@@ -1,18 +1,57 @@
-## Getting Started
+# Requisitos
+Java 11 o superior
+Git
+IDE recomendado: Visual Studio Code o IntelliJ IDEA
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+# Instalación
+1. Clona el repositorio:
+	```bash
+	git clone https://github.com/NaikiTef/pruebaII_Montaluisa_Tiffany.git
+	```
+2. Abre el proyecto en tu IDE favorito.
+3. Compila y ejecuta `App.java`.
 
-## Folder Structure
+# Ejemplo de ejecución
+Al ejecutar el sistema, verás en consola la animación de mutación y el árbol filogenético generado.
 
-The workspace contains two folders by default, where:
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+# Contacto
+Tiffany Montaluisa - tiffany.montaluisa@email.com
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+# pruebaII_Montaluisa_Tiffany
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Este proyecto contiene la solución al ejercicio de mutación y árbol filogenético en Java.
 
-## Dependency Management
+## Estructura
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```
+tmPkbiotech/
+│
+├── bin/                # Archivos compilados (ignorado por Git)
+├── lib/                # Dependencias externas
+├── src/                # Código fuente principal
+│   ├── App.java        # Punto de entrada principal
+│   ├── tmAppBiotech.java   # Lógica principal y métodos del sistema
+│   └── tmPkBiotech/
+│       ├── tmPkProterozoico/   # Clases de la era Proterozoica
+│       │   ├── tmGnathostomata.java
+│       │   ├── tmOsteichyes.java
+│       │   ├── tmSarcopterygil.java
+│       │   ├── tmTetrapoda.java
+│       │   ├── tmAminota.java
+│       │   └── tmTurtles.java
+│       ├── tmMutacion.java     # Lógica de mutación
+│       └── ...                 # Otros paquetes y clases
+├── .gitignore           # Reglas para ignorar archivos innecesarios
+├── README.md            # Descripción del proyecto, uso y estructura
+```
+
+## Autor
+Tiffany Montaluisa
+
+## Uso
+1. Ejecuta `App.java` para iniciar el sistema.
+2. El sistema simula la mutación y muestra el árbol filogenético.
+
+## Repositorio
+[GitHub](https://github.com/NaikiTef/pruebaII_Montaluisa_Tiffany.git)
